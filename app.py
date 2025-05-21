@@ -8,7 +8,7 @@ from PyPDF2 import PdfReader
 from streamlit_extras.add_vertical_space import add_vertical_space # type: ignore
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import chroma
+from langchain.vectorstores import FAISS
 
 #Sidebar contants
 with st.sidebar:
