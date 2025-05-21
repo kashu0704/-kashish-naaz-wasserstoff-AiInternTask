@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environment
+env/
+.venv/
+venv/
+env.bak/
+.env/
+activate
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Docker
+*.env.local
+Dockerfile.local
+
+# Specific to your project based on screenshot
+app.pyc

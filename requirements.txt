@@ -1,0 +1,9 @@
+langchain==0.0.154
+pyPDF2==3.0.1
+python-dotenv==1.0.0
+streamlit>=1.44.1
+streamlit-extras
+openai==1.30.1
+tiktoken==0.6.0
+faiss-cpu==1.7.4.post1  # For Windows
+
